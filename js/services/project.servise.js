@@ -20,6 +20,16 @@ const gProjects = [
         publishedAt: new Date(2022, 7, 1).getTime(),
         labels: ['book shop', 'read'],
         img: 'img/portfolio/Book shop.png'
+    },
+    {
+        id: makeId(),
+        name: 'Task Manager',
+        title: 'Task Manager',
+        desc: 'Manage your tasks easily',
+        url: 'https://nogamorh.github.io/Task-Manager/',
+        publishedAt: new Date(2022, 7, 1).getTime(),
+        labels: ['task', 'to do', 'task manager'],
+        img: 'img/portfolio/Task Manager.png'
     }
 ]
 
